@@ -1,10 +1,13 @@
 # BET206-Object-Oriented-Programming-Cpp
 A portfolio of C++ programming labs, object oriented programming exercises, electrical/electronics engineering stretch activities, and final project work for BET 206.
-Name: Benedict Bissah
-Index Number: 01240038B
+
+# BEE 208: Introduction to Computer Programming Using C++
+## Student Information
+Name:Joel luke kwadwo Agyei-Henaku
+Index Number:01244782B
 Programme: B.Tech Electrical and Electronics Engineering
-Level: 200
-Institution: Accra Technical University
+Level:200
+Institution:Accra Technical University
 ## About This Repository
 This repository contains my weekly practical lab activities, C++
 source code, algorithms, pseudocode, electrical/electronics
@@ -39,8 +42,6 @@ pseudocode.txt, sample-output.png, reflection.md, stretchactivity.cpp, and engin
 My goal is to build a strong C++ programming portfolio that
 shows my growth in problem solving, object oriented programming,
 documentation, testing, and engineering applications.
-## Final Project
-Final project title:
-Brief description:
+
 ## Author
-Prepared by: Benedict Bissah
+Prepared by: Joel luke kwadwo Agyei-Henaku
