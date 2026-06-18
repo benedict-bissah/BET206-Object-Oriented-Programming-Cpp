@@ -2,9 +2,8 @@
 A portfolio of C++ programming labs, object oriented programming exercises, electrical/electronics engineering stretch activities, and final project work for BET 206.
 
 # BEE 208: Introduction to Computer Programming Using C++
-## Student Information
-Name:Joel luke kwadwo Agyei-Henaku
-Index Number:01244782B
+Name:Benedict Bissah
+Index Number:01240038B
 Programme: B.Tech Electrical and Electronics Engineering
 Level:200
 Institution:Accra Technical University
@@ -44,4 +43,4 @@ shows my growth in problem solving, object oriented programming,
 documentation, testing, and engineering applications.
 
 ## Author
-Prepared by: Joel luke kwadwo Agyei-Henaku
+Prepared by: Benedict Bissah
