@@ -2,18 +2,26 @@
 using namespace std;
 
 int main() {
-    int num1, num2;
+    float pf;
 
-    cout << "Enter first number: ";
-    cin >> num1;
+    cout << "Enter power factor (0 to 1): ";
+    cin >> pf;
 
-    cout << "Enter second number: ";
-    cin >> num2;
-
-    cout << "Sum = " << num1 + num2 << endl;
-    cout << "Difference = " << num1 - num2 << endl;
-    cout << "Product = " << num1 * num2 << endl;
-    cout << "Quotient = " << num1 / num2 << endl;
+    if (pf < 0 || pf > 1) {
+        cout << "Invalid power factor" << endl;
+    }
+    else if (pf >= 0.00 && pf <= 0.50) {
+        cout << "Poor power factor" << endl;
+    }
+    else if (pf >= 0.51 && pf <= 0.80) {
+        cout << "Fair power factor" << endl;
+    }
+    else if (pf >= 0.81 && pf <= 0.95) {
+        cout << "Good power factor" << endl;
+    }
+    else if (pf >= 0.96 && pf <= 1.00) {
+        cout << "Excellent power factor" << endl;
+    }
 
     return 0;
 }

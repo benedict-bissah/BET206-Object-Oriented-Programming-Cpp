@@ -2,15 +2,27 @@
 using namespace std;
 
 int main() {
-    float a, b;
+    float voltage, current, power;
+    char choice;
 
-    cout << "Enter first number: ";
-    cin >> a;
+    do {
+        cout << "Enter voltage (V): ";
+        cin >> voltage;
 
-    cout << "Enter second number: ";
-    cin >> b;
+        cout << "Enter current (A): ";
+        cin >> current;
 
-    cout << ((a > b) ? a : b);
+        power = voltage * current;
+        cout << "Power = " << power << " W" << endl;
+
+        cout << "Do you want to perform another calculation? (Y/N): ";
+        cin >> choice;
+
+    } while (choice == 'Y' || choice == 'y');
+
+    cout << "Program ended." << endl;
 
     return 0;
 }
+
+
